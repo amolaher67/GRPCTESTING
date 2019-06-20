@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29006.145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "GrpcGreeter\GrpcGreeter.csproj", "{02143C5E-CEF1-4182-A245-E02EE1B27974}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcGreeterClient", "..\GrpcGreeterClientSolution\GrpcGreeterClient\GrpcGreeterClient.csproj", "{0D4420F0-83D7-41C8-BF53-A4A99356FBB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02143C5E-CEF1-4182-A245-E02EE1B27974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02143C5E-CEF1-4182-A245-E02EE1B27974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02143C5E-CEF1-4182-A245-E02EE1B27974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02143C5E-CEF1-4182-A245-E02EE1B27974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4420F0-83D7-41C8-BF53-A4A99356FBB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4420F0-83D7-41C8-BF53-A4A99356FBB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4420F0-83D7-41C8-BF53-A4A99356FBB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4420F0-83D7-41C8-BF53-A4A99356FBB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6988CAA7-01BE-49C2-B90C-3C8BD727B36B}
+	EndGlobalSection
+EndGlobal
